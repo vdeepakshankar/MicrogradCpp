@@ -39,3 +39,22 @@
 
 # debug information files
 *.dwo
+# Visual Studio
+.vs/
+.vscode/
+*.vcxproj.user
+*.sln.DotSettings
+
+# Build output
+x64/
+Win32/
+Debug/
+Release/
+bin/
+obj/
+
+# IDE files
+*.swp
+*.swo
+*~
+.DS_Store
