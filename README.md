@@ -30,13 +30,21 @@ make
 
 ## Running
 
-After building, run the demo:
+After building, you can run:
 
+### Demo (Training Example)
 ```bash
 ./micrograd_demo
 ```
 
 This will train a simple neural network on a toy dataset and show the training progress.
+
+### Unit Tests
+```bash
+./micrograd_test
+```
+
+This will run unit tests to verify the autograd engine is working correctly.
 
 ## Example Usage
 

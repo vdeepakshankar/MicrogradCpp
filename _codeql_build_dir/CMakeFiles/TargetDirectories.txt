@@ -1,0 +1,3 @@
+/home/runner/work/MicrogradCpp/MicrogradCpp/_codeql_build_dir/CMakeFiles/micrograd_demo.dir
+/home/runner/work/MicrogradCpp/MicrogradCpp/_codeql_build_dir/CMakeFiles/edit_cache.dir
+/home/runner/work/MicrogradCpp/MicrogradCpp/_codeql_build_dir/CMakeFiles/rebuild_cache.dir
