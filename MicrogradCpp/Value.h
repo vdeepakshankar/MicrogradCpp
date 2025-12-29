@@ -47,4 +47,5 @@ struct Value : public std::enable_shared_from_this<Value> {
     friend std::shared_ptr<Value> operator/(const std::shared_ptr<Value>& lhs, const std::shared_ptr<Value>& rhs);
 
     friend std::ostream& operator<<(std::ostream& os, const std::shared_ptr<Value>& v);
+    void print();
 };

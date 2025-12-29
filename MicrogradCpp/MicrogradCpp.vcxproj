@@ -123,11 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Value.cpp" />
+    <ClCompile Include="Layer.cpp" />
     <ClCompile Include="MicrogradCpp.cpp" />
+    <ClCompile Include="MLP.cpp" />
+    <ClCompile Include="Module.cpp" />
+    <ClCompile Include="Neuron.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Value.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Value.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="MLP.h" />
+    <ClInclude Include="Module.h" />
+    <ClInclude Include="Neuron.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="Value.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

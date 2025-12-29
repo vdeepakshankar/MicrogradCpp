@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "Test.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+ 
+    auto t = new Test();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -171,3 +171,7 @@ void Value::backward() {
         (*it)->_backward();
     }
 }
+void Value::print()
+{
+    std::cout << "Value(data=" << data << ", grad=" << grad << ", op=\"" << op << "\")" << std::endl;
+}
